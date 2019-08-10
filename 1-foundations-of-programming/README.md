@@ -27,9 +27,11 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```
 
 3. Calculate how old you are in minutes using the console.
+   a. 45990000 minutes
 
 4. What is the percentage of people in the class with brown hair? Use the
    console to find out.
+   I'll say 80%, by guessing
 
 5. Try the following expressions in the console:
 
@@ -44,6 +46,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    What is the significance of the result? How does the `%` (modulus) operator
    work?
+   The modulus operator takes a look at how many times one number is divisable in another, and potentially what the remainder is.
 
 6. Try the following:
 
