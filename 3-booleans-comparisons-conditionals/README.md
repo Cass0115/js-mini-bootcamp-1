@@ -62,14 +62,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
   Write a function `sameLength` that accepts two strings as arguments, and
   returns `true` if those strings have the same length, and `false` otherwise.
-  
+  ```js
   function sameLength(a, b){
     if(a.length === b.length) {
 		return true;
         }
     return false;	
     };
-
+```
 6. Write a function `passwordLongEnough` that accepts a "password" as a
    parameter and returns `true` if that password is *long enough* -- you get to
    decide what constitutes *long enough*.
@@ -87,14 +87,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
    and returns either "Go home, NAME.", or "Welcome, NAME!" (where NAME is the
    parameter that represents the person's name) depending on whether or not the
    person is old enough to drink.
-   
+   ```js
    function bouncer(name, num){
 	if(num >= 21){
 		return "Welcome " + name + "!";
         }
 	return "Go home, " + name + ".";
     };
-
+```
 2. Write a function `max` that takes two numbers as arguments, and returns the
    larger one.
 ```js
