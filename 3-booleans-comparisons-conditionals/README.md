@@ -97,12 +97,29 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 2. Write a function `max` that takes two numbers as arguments, and returns the
    larger one.
+```js
+function max(a, b) {
+    if(a > b){
+	return a;
+    }
+    return b;
+}
+```
 
 3. Write a function `min` that takes two numbers as arguments, and returns the
    smaller one.
+   ```js
+	function min(a, b){
+	  if(a < b){
+	    return a;
+	  }
+	  return b;
+	};
+```
 
 4. Write functions `larger` and `smaller` that each accept two strings as
    arguments, and return the *larger* and *smaller* strings, respectively.
+   
 
 ### More Practice
 
