@@ -23,16 +23,26 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 2. Write a sentence in plain English describing how `square(square(15))` is
    evaluated.
+   
+   the first thing that is happening is 15 is being squared. Since it is inside the squared function, it is squared again.
 
 3. Rename `square`'s `num` parameter in your above code to `monkey`, and
    rename the uses of that parameter in the body to `monkey` as well. Will the
    function `square` still work? Why or why not?
+   
+   It still does work because you are just changing the parameters, but not the logic. 
 
 4. What is wrong with the following definitions of `square`? Write a sentence or
    two describing the issue(s); then, try copying the erroneous examples into a
    console one-at-a-time and observing the error(s) generated (you may have to
    attempt to invoke the functions to see the error). What errors are produced
    (if any) for each erroneous version? Do the errors make sense?
+   
+   The first one doesn't work because the parameter does not match the return argument.
+   
+   The second one doesn't work because the parameter is a number, vs an interchangeable variable 
+   
+   The third one is a string, and that is why the operations do not work. 
 
    ```js
    function square(monkey) {
@@ -62,6 +72,22 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    function (x) square3 {
      return x * x;
+   ```
+   
+   Answer
+   ```js
+   function square1(x) {
+     return x * x;
+   }
+   
+   function square2 (x) {
+     return x * x;
+   }
+   
+   function square3 (x) {
+     return x * x;
+   }
+   
    ```
 
 6. The following functions exhibit poor style -- fix these issues using the
