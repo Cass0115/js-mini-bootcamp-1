@@ -34,6 +34,19 @@ Before getting started, make sure that you have a JavaScript console open (like 
    decided to add him to the "blacklist" -- modify the `bouncer` function from
    the previous section so that the person named "Joe" is rejected with an
    appropriate message, regardless of his age.
+   ```js
+         function bouncer(name, num){
+	if(name === "Joe"){
+	    return "Sorry, Joe you can't come in.";
+	} else if (num >= 21){
+		return "Welcome, " + name + "!";
+        } else {
+            return "Go home, " + name + ".";   
+        }
+    };
+
+   ```
+   
 
 2. Write a function called `scoreToGrade` that accepts a *number* as a parameter
    and returns a *string* representing a letter grade corresponding to that
