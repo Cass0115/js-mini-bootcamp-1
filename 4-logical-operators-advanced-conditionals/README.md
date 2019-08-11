@@ -53,6 +53,18 @@ Before getting started, make sure that you have a JavaScript console open (like 
    score.
 
    For example, the following grades should be returned given these scores:
+   
+   ```js
+   function scoreToGrade(num){
+    if(num <= 100 && num >= 90) {
+        return "A";
+    } else if (num <= 89 && num >= 80) {
+        return "B";
+    } else if (num <= 79 && num >= 70) {
+        return "C";
+    }
+	}
+   ```
 
    + 'A' >= 90
    + 'B' >= 80
