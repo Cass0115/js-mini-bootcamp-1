@@ -13,11 +13,11 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    var "animal" = "monkey";
    var "monkey" = animal;
-   var x= 15;
-   var y =10;
-   var var = "huh?";
-   var true = false;
-   var isTenEven = 10 % 2 = 0;
+   var x = 15;
+   var y = 10;
+   var what = "huh?";
+   var whatIsTrue = false;
+   var isTenEven = 10 % 2;
    ```
 
 2. Perform the following in the console:
@@ -27,6 +27,13 @@ Before getting started, make sure that you have a JavaScript console open (like 
    + Have a middle name? If so, repeat the process.
    + Now, create a variable `fullName` and assign your full name to it by using
      the above variables.
+     
+     ```js
+     var firstName = 'Cassie';
+     var lastName = 'Durr';
+     var middleInitial = 'R';
+     fullName = firstname + middleInitial + lastName;
+     ```
 
 3. For each of the following code blocks, **use a whiteboard (or a piece of paper)** to reason about
    what the value of `x` is supposed to be on the last line. Once you have
